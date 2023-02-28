@@ -1,0 +1,34 @@
+body, html{
+	margin: 20px;
+	padding: 0px;
+}
+body{
+	background-color: forestgreen;
+}
+
+.secondcontainer {
+	display: flex;
+}
+.secondcontainer div {
+	background-color: purple;
+
+}
+.secondcontainer > div {
+	background-color: indianred;
+}
+.secondcontainer div > p {
+	text-decoration: line-through;
+}
+.secondcontainer div p:first-child {
+	text-decoration: underline;
+
+}
+p + p{
+	margin: 30px;
+}
+p:nth-child(2){
+	font-family: sans-serif;
+}
+p:hover{
+	background-color: white;
+}
