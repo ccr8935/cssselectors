@@ -1,5 +1,5 @@
 body, html{
-	margin: 20px;
+	margin: 2vw;
 	padding: 0px;
 }
 body{
@@ -24,7 +24,7 @@ body{
 
 }
 p + p{
-	margin: 30px;
+	margin: 30vh;
 }
 p:nth-child(2){
 	font-family: sans-serif;
